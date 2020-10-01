@@ -50,7 +50,7 @@ if __name__ == "__main__":
     get_api_test()
     print('\n')
     print('testing post requests-----------------------')
-    print("\n")
+    print("___")
     post_api_request()
     while(1): pass
 
