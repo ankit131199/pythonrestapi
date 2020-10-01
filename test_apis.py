@@ -36,7 +36,7 @@ post_api = [
         'url': 'https://o1codingclub.herokuapp.com/blog/requestkey/',
         'data': {
             "fullname": "xyzxyz",
-            "college": "xyzxyz",
+            "college": "RCOEM",
             "branch": "xyzxyz",
             "email": "aditya.morankar8@gmail.com"
         },
