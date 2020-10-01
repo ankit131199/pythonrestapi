@@ -58,7 +58,37 @@ post_api = [
     },
 
     {
-        
-    }
+        'url': 'https://o1codingclub.herokuapp.com/blog/',
+        'data': {
+            'key': 'gAAAAABfYys99vhKbNtgKJ5PB_HgqIeQ5qFW_Nz4j8m_p8p0zOKVFjs4y6VxMeCLJMmJtB2e7X7F69tYenleGxfBxeOqPyPjJll-60Ol9AJWW48JI6cCAKG0fDAGdJPlDAom8TUl_r6l',
+        },
+        'status': 200
+    },
 
+    {
+        'url': 'https://o1codingclub.herokuapp.com/blog/',
+        'data':
+        {
+            'key': 'ahgjheywieuhjbd,jfdweirkluewriowuer9woiiklfdjsdf',
+        },
+        'status': 404
+    },
+
+    {
+        'url': 'https://o1codingclub.herokuapp.com/blog/approve/1000000',
+        'data':
+        {
+            'key': 'gAAAAABfYys99vhKbNtgKJ5PB_HgqIeQ5qFW_Nz4j8m_p8p0zOKVFjs4y6VxMeCLJMmJtB2e7X7F69tYenleGxfBxeOqPyPjJll-60Ol9AJWW48JI6cCAKG0fDAGdJPlDAom8TUl_r6l',
+        },
+        'status': 404
+    },
+
+    {
+        'url': f'https://o1codingclub.herokuapp.com/blog/approve/{int(input("enter id of blog"))}',
+        'data':
+        {
+            'key': 'gAAAAABfYys99vhKbNtgKJ5PB_HgqIeQ5qFW_Nz4j8m_p8p0zOKVFjs4y6VxMeCLJMmJtB2e7X7F69tYenleGxfBxeOqPyPjJll-60Ol9AJWW48JI6cCAKG0fDAGdJPlDAom8TUl_r6l',
+        },
+        'status': 200
+    }
 ]
