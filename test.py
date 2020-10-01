@@ -55,3 +55,5 @@ if __name__ == "__main__":
     post_api_request()
 
     x = input()
+                  
+  print(x)
