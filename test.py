@@ -1,4 +1,6 @@
 import requests
+import random
+
 from test_apis import get_api, post_api
 total, verified, errors = [0, 0, 0]
 
@@ -52,4 +54,4 @@ if __name__ == "__main__":
     print("\n")
     post_api_request()
 
-    while(1)
+    x = input()
